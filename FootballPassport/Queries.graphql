@@ -1,0 +1,6 @@
+query Checklist{
+  visits {
+    groundName
+    homeTeam
+  }
+}

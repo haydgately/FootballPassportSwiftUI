@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1956DEC28611428A935565A9 /* Pods_FootballPassportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A5F20B3EABD2724E4A8407 /* Pods_FootballPassportUITests.framework */; };
+		4B8BCCABAE3384B1C3A7190B /* Pods_FootballPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572CF93E98B07C2C06A87D51 /* Pods_FootballPassport.framework */; };
+		91071AAF14C8B02BCDDE6558 /* Pods_FootballPassportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87021D82628CDDC4D4639890 /* Pods_FootballPassportTests.framework */; };
+		9513538B24A6129700A9B8B8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513538A24A6129700A9B8B8 /* API.swift */; };
+		9513538D24A612C800A9B8B8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9513538C24A612C800A9B8B8 /* Network.swift */; };
+		95226EA524A5FA76008B2E75 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 95226EA424A5FA75008B2E75 /* schema.json */; };
+		95226EA724A5FAB3008B2E75 /* Queries.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 95226EA624A5FAB3008B2E75 /* Queries.graphql */; };
 		95B59DD824A5E239005D34B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DD724A5E239005D34B7 /* AppDelegate.swift */; };
 		95B59DDA24A5E239005D34B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DD924A5E239005D34B7 /* SceneDelegate.swift */; };
 		95B59DDD24A5E239005D34B7 /* FootballPassport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DDB24A5E239005D34B7 /* FootballPassport.xcdatamodeld */; };
@@ -36,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CDB99F460FCB1C31456D1FD /* Pods-FootballPassportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassportTests.release.xcconfig"; path = "Target Support Files/Pods-FootballPassportTests/Pods-FootballPassportTests.release.xcconfig"; sourceTree = "<group>"; };
+		38B5199F9F6C1A828C326C31 /* Pods-FootballPassportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassportUITests.debug.xcconfig"; path = "Target Support Files/Pods-FootballPassportUITests/Pods-FootballPassportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52A5F20B3EABD2724E4A8407 /* Pods_FootballPassportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballPassportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572CF93E98B07C2C06A87D51 /* Pods_FootballPassport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballPassport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E79242F2872DC6D5B8724C2 /* Pods-FootballPassport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassport.debug.xcconfig"; path = "Target Support Files/Pods-FootballPassport/Pods-FootballPassport.debug.xcconfig"; sourceTree = "<group>"; };
+		87021D82628CDDC4D4639890 /* Pods_FootballPassportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FootballPassportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9513538A24A6129700A9B8B8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9513538C24A612C800A9B8B8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		95226EA424A5FA75008B2E75 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		95226EA624A5FAB3008B2E75 /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
 		95B59DD424A5E239005D34B7 /* FootballPassport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballPassport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B59DD724A5E239005D34B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B59DD924A5E239005D34B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +68,9 @@
 		95B59DF824A5E23C005D34B7 /* FootballPassportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballPassportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B59DFC24A5E23C005D34B7 /* FootballPassportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPassportUITests.swift; sourceTree = "<group>"; };
 		95B59DFE24A5E23C005D34B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34C85B52B51881CA8CB59E4 /* Pods-FootballPassportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassportUITests.release.xcconfig"; path = "Target Support Files/Pods-FootballPassportUITests/Pods-FootballPassportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D47DD27AE6D3CBBD4F6415A0 /* Pods-FootballPassportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassportTests.debug.xcconfig"; path = "Target Support Files/Pods-FootballPassportTests/Pods-FootballPassportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E57078CB67F3DD33CCA6A1 /* Pods-FootballPassport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FootballPassport.release.xcconfig"; path = "Target Support Files/Pods-FootballPassport/Pods-FootballPassport.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8BCCABAE3384B1C3A7190B /* Pods_FootballPassport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91071AAF14C8B02BCDDE6558 /* Pods_FootballPassportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1956DEC28611428A935565A9 /* Pods_FootballPassportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5314276D9A15A2E8C44BEF73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E79242F2872DC6D5B8724C2 /* Pods-FootballPassport.debug.xcconfig */,
+				D9E57078CB67F3DD33CCA6A1 /* Pods-FootballPassport.release.xcconfig */,
+				D47DD27AE6D3CBBD4F6415A0 /* Pods-FootballPassportTests.debug.xcconfig */,
+				2CDB99F460FCB1C31456D1FD /* Pods-FootballPassportTests.release.xcconfig */,
+				38B5199F9F6C1A828C326C31 /* Pods-FootballPassportUITests.debug.xcconfig */,
+				C34C85B52B51881CA8CB59E4 /* Pods-FootballPassportUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		95B59DCB24A5E238005D34B7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				95B59DF024A5E23C005D34B7 /* FootballPassportTests */,
 				95B59DFB24A5E23C005D34B7 /* FootballPassportUITests */,
 				95B59DD524A5E239005D34B7 /* Products */,
+				5314276D9A15A2E8C44BEF73 /* Pods */,
+				CAB6A65C3CA3ED9BFDA925BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +139,8 @@
 		95B59DD624A5E239005D34B7 /* FootballPassport */ = {
 			isa = PBXGroup;
 			children = (
+				9513538A24A6129700A9B8B8 /* API.swift */,
+				95226EA424A5FA75008B2E75 /* schema.json */,
 				95B59DD724A5E239005D34B7 /* AppDelegate.swift */,
 				95B59DD924A5E239005D34B7 /* SceneDelegate.swift */,
 				95B59DDE24A5E239005D34B7 /* ContentView.swift */,
@@ -109,6 +149,8 @@
 				95B59DE824A5E23C005D34B7 /* Info.plist */,
 				95B59DDB24A5E239005D34B7 /* FootballPassport.xcdatamodeld */,
 				95B59DE224A5E23C005D34B7 /* Preview Content */,
+				95226EA624A5FAB3008B2E75 /* Queries.graphql */,
+				9513538C24A612C800A9B8B8 /* Network.swift */,
 			);
 			path = FootballPassport;
 			sourceTree = "<group>";
@@ -139,6 +181,16 @@
 			path = FootballPassportUITests;
 			sourceTree = "<group>";
 		};
+		CAB6A65C3CA3ED9BFDA925BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572CF93E98B07C2C06A87D51 /* Pods_FootballPassport.framework */,
+				87021D82628CDDC4D4639890 /* Pods_FootballPassportTests.framework */,
+				52A5F20B3EABD2724E4A8407 /* Pods_FootballPassportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95B59E0124A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassport" */;
 			buildPhases = (
+				001E0A731FFAC293151E44DB /* [CP] Check Pods Manifest.lock */,
 				95B59DD024A5E239005D34B7 /* Sources */,
 				95B59DD124A5E239005D34B7 /* Frameworks */,
 				95B59DD224A5E239005D34B7 /* Resources */,
+				EF16B28732D820B8FA00E2FE /* [CP] Embed Pods Frameworks */,
+				95226EA824A5FB2B008B2E75 /* Generate Apollo GraphQL API */,
 			);
 			buildRules = (
 			);
@@ -163,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95B59E0424A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportTests" */;
 			buildPhases = (
+				5F0E39779B0EFB823DCBB7A6 /* [CP] Check Pods Manifest.lock */,
 				95B59DE924A5E23C005D34B7 /* Sources */,
 				95B59DEA24A5E23C005D34B7 /* Frameworks */,
 				95B59DEB24A5E23C005D34B7 /* Resources */,
@@ -181,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95B59E0724A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportUITests" */;
 			buildPhases = (
+				1F28EB9376F86DC531758C7E /* [CP] Check Pods Manifest.lock */,
 				95B59DF424A5E23C005D34B7 /* Sources */,
 				95B59DF524A5E23C005D34B7 /* Frameworks */,
 				95B59DF624A5E23C005D34B7 /* Resources */,
@@ -243,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95226EA524A5FA76008B2E75 /* schema.json in Resources */,
 				95B59DE724A5E23C005D34B7 /* LaunchScreen.storyboard in Resources */,
 				95B59DE424A5E23C005D34B7 /* Preview Assets.xcassets in Resources */,
 				95B59DE124A5E23C005D34B7 /* Assets.xcassets in Resources */,
@@ -265,6 +323,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		001E0A731FFAC293151E44DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootballPassport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F28EB9376F86DC531758C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootballPassportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0E39779B0EFB823DCBB7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FootballPassportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95226EA824A5FB2B008B2E75 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+		EF16B28732D820B8FA00E2FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FootballPassport/Pods-FootballPassport-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FootballPassport/Pods-FootballPassport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95B59DD024A5E239005D34B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,7 +439,10 @@
 			files = (
 				95B59DD824A5E239005D34B7 /* AppDelegate.swift in Sources */,
 				95B59DDD24A5E239005D34B7 /* FootballPassport.xcdatamodeld in Sources */,
+				95226EA724A5FAB3008B2E75 /* Queries.graphql in Sources */,
 				95B59DDF24A5E239005D34B7 /* ContentView.swift in Sources */,
+				9513538B24A6129700A9B8B8 /* API.swift in Sources */,
+				9513538D24A612C800A9B8B8 /* Network.swift in Sources */,
 				95B59DDA24A5E239005D34B7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +606,7 @@
 		};
 		95B59E0224A5E23C005D34B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79242F2872DC6D5B8724C2 /* Pods-FootballPassport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +627,7 @@
 		};
 		95B59E0324A5E23C005D34B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E57078CB67F3DD33CCA6A1 /* Pods-FootballPassport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +648,7 @@
 		};
 		95B59E0524A5E23C005D34B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47DD27AE6D3CBBD4F6415A0 /* Pods-FootballPassportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +671,7 @@
 		};
 		95B59E0624A5E23C005D34B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CDB99F460FCB1C31456D1FD /* Pods-FootballPassportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +694,7 @@
 		};
 		95B59E0824A5E23C005D34B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B5199F9F6C1A828C326C31 /* Pods-FootballPassportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +715,7 @@
 		};
 		95B59E0924A5E23C005D34B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34C85B52B51881CA8CB59E4 /* Pods-FootballPassportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
