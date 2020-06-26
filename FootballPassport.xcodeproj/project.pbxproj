@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95B59DD824A5E239005D34B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DD724A5E239005D34B7 /* AppDelegate.swift */; };
+		95B59DDA24A5E239005D34B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DD924A5E239005D34B7 /* SceneDelegate.swift */; };
+		95B59DDD24A5E239005D34B7 /* FootballPassport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DDB24A5E239005D34B7 /* FootballPassport.xcdatamodeld */; };
+		95B59DDF24A5E239005D34B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DDE24A5E239005D34B7 /* ContentView.swift */; };
+		95B59DE124A5E23C005D34B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B59DE024A5E23C005D34B7 /* Assets.xcassets */; };
+		95B59DE424A5E23C005D34B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B59DE324A5E23C005D34B7 /* Preview Assets.xcassets */; };
+		95B59DE724A5E23C005D34B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B59DE524A5E23C005D34B7 /* LaunchScreen.storyboard */; };
+		95B59DF224A5E23C005D34B7 /* FootballPassportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DF124A5E23C005D34B7 /* FootballPassportTests.swift */; };
+		95B59DFD24A5E23C005D34B7 /* FootballPassportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B59DFC24A5E23C005D34B7 /* FootballPassportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95B59DEE24A5E23C005D34B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B59DCC24A5E238005D34B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B59DD324A5E239005D34B7;
+			remoteInfo = FootballPassport;
+		};
+		95B59DF924A5E23C005D34B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95B59DCC24A5E238005D34B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95B59DD324A5E239005D34B7;
+			remoteInfo = FootballPassport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95B59DD424A5E239005D34B7 /* FootballPassport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballPassport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B59DD724A5E239005D34B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95B59DD924A5E239005D34B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95B59DDC24A5E239005D34B7 /* FootballPassport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FootballPassport.xcdatamodel; sourceTree = "<group>"; };
+		95B59DDE24A5E239005D34B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95B59DE024A5E23C005D34B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95B59DE324A5E23C005D34B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95B59DE624A5E23C005D34B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95B59DE824A5E23C005D34B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B59DED24A5E23C005D34B7 /* FootballPassportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballPassportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B59DF124A5E23C005D34B7 /* FootballPassportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPassportTests.swift; sourceTree = "<group>"; };
+		95B59DF324A5E23C005D34B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B59DF824A5E23C005D34B7 /* FootballPassportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballPassportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B59DFC24A5E23C005D34B7 /* FootballPassportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballPassportUITests.swift; sourceTree = "<group>"; };
+		95B59DFE24A5E23C005D34B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B59DD124A5E239005D34B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DEA24A5E23C005D34B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DF524A5E23C005D34B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95B59DCB24A5E238005D34B7 = {
+			isa = PBXGroup;
+			children = (
+				95B59DD624A5E239005D34B7 /* FootballPassport */,
+				95B59DF024A5E23C005D34B7 /* FootballPassportTests */,
+				95B59DFB24A5E23C005D34B7 /* FootballPassportUITests */,
+				95B59DD524A5E239005D34B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95B59DD524A5E239005D34B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B59DD424A5E239005D34B7 /* FootballPassport.app */,
+				95B59DED24A5E23C005D34B7 /* FootballPassportTests.xctest */,
+				95B59DF824A5E23C005D34B7 /* FootballPassportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B59DD624A5E239005D34B7 /* FootballPassport */ = {
+			isa = PBXGroup;
+			children = (
+				95B59DD724A5E239005D34B7 /* AppDelegate.swift */,
+				95B59DD924A5E239005D34B7 /* SceneDelegate.swift */,
+				95B59DDE24A5E239005D34B7 /* ContentView.swift */,
+				95B59DE024A5E23C005D34B7 /* Assets.xcassets */,
+				95B59DE524A5E23C005D34B7 /* LaunchScreen.storyboard */,
+				95B59DE824A5E23C005D34B7 /* Info.plist */,
+				95B59DDB24A5E239005D34B7 /* FootballPassport.xcdatamodeld */,
+				95B59DE224A5E23C005D34B7 /* Preview Content */,
+			);
+			path = FootballPassport;
+			sourceTree = "<group>";
+		};
+		95B59DE224A5E23C005D34B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95B59DE324A5E23C005D34B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95B59DF024A5E23C005D34B7 /* FootballPassportTests */ = {
+			isa = PBXGroup;
+			children = (
+				95B59DF124A5E23C005D34B7 /* FootballPassportTests.swift */,
+				95B59DF324A5E23C005D34B7 /* Info.plist */,
+			);
+			path = FootballPassportTests;
+			sourceTree = "<group>";
+		};
+		95B59DFB24A5E23C005D34B7 /* FootballPassportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95B59DFC24A5E23C005D34B7 /* FootballPassportUITests.swift */,
+				95B59DFE24A5E23C005D34B7 /* Info.plist */,
+			);
+			path = FootballPassportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B59DD324A5E239005D34B7 /* FootballPassport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B59E0124A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassport" */;
+			buildPhases = (
+				95B59DD024A5E239005D34B7 /* Sources */,
+				95B59DD124A5E239005D34B7 /* Frameworks */,
+				95B59DD224A5E239005D34B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballPassport;
+			productName = FootballPassport;
+			productReference = 95B59DD424A5E239005D34B7 /* FootballPassport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95B59DEC24A5E23C005D34B7 /* FootballPassportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B59E0424A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportTests" */;
+			buildPhases = (
+				95B59DE924A5E23C005D34B7 /* Sources */,
+				95B59DEA24A5E23C005D34B7 /* Frameworks */,
+				95B59DEB24A5E23C005D34B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B59DEF24A5E23C005D34B7 /* PBXTargetDependency */,
+			);
+			name = FootballPassportTests;
+			productName = FootballPassportTests;
+			productReference = 95B59DED24A5E23C005D34B7 /* FootballPassportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95B59DF724A5E23C005D34B7 /* FootballPassportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B59E0724A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportUITests" */;
+			buildPhases = (
+				95B59DF424A5E23C005D34B7 /* Sources */,
+				95B59DF524A5E23C005D34B7 /* Frameworks */,
+				95B59DF624A5E23C005D34B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95B59DFA24A5E23C005D34B7 /* PBXTargetDependency */,
+			);
+			name = FootballPassportUITests;
+			productName = FootballPassportUITests;
+			productReference = 95B59DF824A5E23C005D34B7 /* FootballPassportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B59DCC24A5E238005D34B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Haydn Gately";
+				TargetAttributes = {
+					95B59DD324A5E239005D34B7 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					95B59DEC24A5E23C005D34B7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 95B59DD324A5E239005D34B7;
+					};
+					95B59DF724A5E23C005D34B7 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 95B59DD324A5E239005D34B7;
+					};
+				};
+			};
+			buildConfigurationList = 95B59DCF24A5E238005D34B7 /* Build configuration list for PBXProject "FootballPassport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95B59DCB24A5E238005D34B7;
+			productRefGroup = 95B59DD524A5E239005D34B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B59DD324A5E239005D34B7 /* FootballPassport */,
+				95B59DEC24A5E23C005D34B7 /* FootballPassportTests */,
+				95B59DF724A5E23C005D34B7 /* FootballPassportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95B59DD224A5E239005D34B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B59DE724A5E23C005D34B7 /* LaunchScreen.storyboard in Resources */,
+				95B59DE424A5E23C005D34B7 /* Preview Assets.xcassets in Resources */,
+				95B59DE124A5E23C005D34B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DEB24A5E23C005D34B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DF624A5E23C005D34B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B59DD024A5E239005D34B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B59DD824A5E239005D34B7 /* AppDelegate.swift in Sources */,
+				95B59DDD24A5E239005D34B7 /* FootballPassport.xcdatamodeld in Sources */,
+				95B59DDF24A5E239005D34B7 /* ContentView.swift in Sources */,
+				95B59DDA24A5E239005D34B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DE924A5E23C005D34B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B59DF224A5E23C005D34B7 /* FootballPassportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95B59DF424A5E23C005D34B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B59DFD24A5E23C005D34B7 /* FootballPassportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95B59DEF24A5E23C005D34B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B59DD324A5E239005D34B7 /* FootballPassport */;
+			targetProxy = 95B59DEE24A5E23C005D34B7 /* PBXContainerItemProxy */;
+		};
+		95B59DFA24A5E23C005D34B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95B59DD324A5E239005D34B7 /* FootballPassport */;
+			targetProxy = 95B59DF924A5E23C005D34B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95B59DE524A5E23C005D34B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95B59DE624A5E23C005D34B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95B59DFF24A5E23C005D34B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95B59E0024A5E23C005D34B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95B59E0224A5E23C005D34B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballPassport/Preview Content\"";
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FootballPassport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95B59E0324A5E23C005D34B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballPassport/Preview Content\"";
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FootballPassport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95B59E0524A5E23C005D34B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				INFOPLIST_FILE = FootballPassportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballPassport.app/FootballPassport";
+			};
+			name = Debug;
+		};
+		95B59E0624A5E23C005D34B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				INFOPLIST_FILE = FootballPassportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballPassport.app/FootballPassport";
+			};
+			name = Release;
+		};
+		95B59E0824A5E23C005D34B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				INFOPLIST_FILE = FootballPassportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FootballPassport;
+			};
+			name = Debug;
+		};
+		95B59E0924A5E23C005D34B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q75XVQHS6L;
+				INFOPLIST_FILE = FootballPassportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = live.capacityApp.FootballPassportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FootballPassport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B59DCF24A5E238005D34B7 /* Build configuration list for PBXProject "FootballPassport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B59DFF24A5E23C005D34B7 /* Debug */,
+				95B59E0024A5E23C005D34B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B59E0124A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B59E0224A5E23C005D34B7 /* Debug */,
+				95B59E0324A5E23C005D34B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B59E0424A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B59E0524A5E23C005D34B7 /* Debug */,
+				95B59E0624A5E23C005D34B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B59E0724A5E23C005D34B7 /* Build configuration list for PBXNativeTarget "FootballPassportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B59E0824A5E23C005D34B7 /* Debug */,
+				95B59E0924A5E23C005D34B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95B59DDB24A5E239005D34B7 /* FootballPassport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95B59DDC24A5E239005D34B7 /* FootballPassport.xcdatamodel */,
+			);
+			currentVersion = 95B59DDC24A5E239005D34B7 /* FootballPassport.xcdatamodel */;
+			path = FootballPassport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95B59DCC24A5E238005D34B7 /* Project object */;
+}
