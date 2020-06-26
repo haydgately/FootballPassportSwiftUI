@@ -12,13 +12,25 @@ import Combine
 
 struct ContentView: View {
     @ObservedObject private var groundData: FootballGroundData = FootballGroundData()
-        
+    
+    init() {
+        // for navigation bar title color
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
+       // For navigation bar background color
+        UINavigationBar.appearance().backgroundColor = .green
+    }
+    
     var body: some View {
-        return List(groundData.grounds) { ground in
-            Text(ground)
-                .fontWeight(.semibold)
-                .font(.headline)
-                .foregroundColor(.green)
+        
+        NavigationView {
+            List(groundData.grounds) { ground in
+                Text(ground)
+                    .fontWeight(.semibold)
+                    .font(.headline)
+                    .foregroundColor(.green)
+            }
+            .navigationBarTitle("Football Passport", displayMode: .inline)
+            
         }
     }
 }
@@ -36,20 +48,20 @@ class FootballGroundData: ObservableObject {
     
     func loadData() {
         Network.shared.apollo.fetch(query: ChecklistQuery()) { result in
-          switch result {
-          case .success(let graphQLResult):
-            for launch in graphQLResult.data!.visits {
-                if launch != nil {
-                    if launch.groundName != nil  {
-                        self.grounds.append(launch.groundName)
+            switch result {
+            case .success(let graphQLResult):
+                for launch in graphQLResult.data!.visits {
+                    if launch != nil {
+                        if launch.groundName != nil  {
+                            self.grounds.append(launch.groundName)
+                        }
                     }
                 }
+                
+                print("Success! Result: \(String(describing: self.grounds))")
+            case .failure(let error):
+                print("Failure! Error: \(error)")
             }
-                        
-            print("Success! Result: \(String(describing: self.grounds))")
-          case .failure(let error):
-            print("Failure! Error: \(error)")
-          }
         }
     }
 }
